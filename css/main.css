@@ -1,0 +1,39 @@
+/*second color: #7F4546 */
+
+*{
+	-webkit-tap-highlight-color: transparent;
+}
+body{
+	background: lightgrey;
+}
+nav{
+	background-color: #cf4449;
+}
+button.navbar-toggler:focus{
+	outline: 0;
+}
+
+span.mainHeader{
+	font-size: 1.25rem;
+	color: #ffffff;
+	vertical-align: middle;
+}
+
+.row{
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.firstRow{
+	margin-top: 3rem;
+}
+
+.centerAlign{
+	text-align: center;
+}
+.profilePicDiv{
+	text-align: center;
+	z-index: 1;
+	position: relative;
+	top: 25px;
+}
