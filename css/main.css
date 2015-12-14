@@ -1,4 +1,38 @@
-/*second color: #7F4546 */
+/*
+primary color: #cf4449
+second color: #7F4546 */
+/*// Extra small devices (portrait phones, less than 34em)
+// No media query since this is the default in Bootstrap
+
+// Small devices (landscape phones, 34em and up)
+@media (min-width: 34em) { ... }
+
+// Medium devices (tablets, 48em and up)
+@media (min-width: 48em) { ... }
+
+// Large devices (desktops, 62em and up)
+@media (min-width: 62em) { ... }
+
+// Extra large devices (large desktops, 75em and up)
+@media (min-width: 75em) { ... }*/
+
+/*-----------------------------------------------------------------------------------------------------------*/
+
+/*// Extra small devices (portrait phones, less than 34em)
+@media (max-width: 33.9em) { ... }
+
+// Small devices (landscape phones, less than 48em)
+@media (max-width: 47.9em) { ... }
+
+// Medium devices (tablets, less than 62em)
+@media (max-width: 61.9em) { ... }
+
+// Large devices (desktops, less than 75em)
+@media (max-width: 74.9em) { ... }
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width*/
+
 
 *{
 	-webkit-tap-highlight-color: transparent;
@@ -7,7 +41,7 @@ body{
 	background: lightgrey;
 }
 nav{
-	background-color: #cf4449;
+	background-color: firebrick;
 }
 button.navbar-toggler:focus{
 	outline: 0;
@@ -18,9 +52,14 @@ span.mainHeader{
 	color: #ffffff;
 	vertical-align: middle;
 }
-
+a{
+	color: #7F0F0B;
+}
+a:hover{
+	color: #7F0F0B;
+}
 .firstRow{
-	margin-top: 3rem;
+	margin-top: 5rem;
 	margin-left: 0.1rem;
 	margin-right: 0.1rem;
 }
@@ -28,9 +67,34 @@ span.mainHeader{
 .centerAlign{
 	text-align: center;
 }
+i{
+	color: #CC2727;
+}
 .profilePicDiv{
 	text-align: center;
 	z-index: 1;
 	position: relative;
 	top: 25px;
+}
+
+.card-deck-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.commonWidth{
+	max-width: 43rem;
+	margin: 0 auto;
+	margin-top: 5rem;
+}
+
+.customButton{
+	background: #CC2727;
+	border-color: #CC2727;
+	color: #ffffff;
+}
+.customButton:hover{
+	background: #7F0F0B;
+	border-color: #7F0F0B; 
+	color: #ffffff;
 }
