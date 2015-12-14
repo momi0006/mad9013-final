@@ -52,10 +52,11 @@ span.mainHeader{
 	color: #ffffff;
 	vertical-align: middle;
 }
-a{
+p a{
 	color: #7F0F0B;
+	text-decoration: underline;
 }
-a:hover{
+p a:hover{
 	color: #7F0F0B;
 }
 .firstRow{
@@ -77,6 +78,9 @@ i{
 	top: 25px;
 }
 
+.profilePicDiv img{
+	border: 2px solid #CC2727;
+}
 .card-deck-wrapper {
     margin-right: 0;
     margin-left: 0;
@@ -92,9 +96,14 @@ i{
 	background: #CC2727;
 	border-color: #CC2727;
 	color: #ffffff;
+	outline: 0;
 }
-.customButton:hover{
+.customButton:hover, customButton:link, customButton:active, customButton:focus{
 	background: #7F0F0B;
 	border-color: #7F0F0B; 
 	color: #ffffff;
+	outline:0;
+}
+input[type="submit"]{
+	outline: 0;
 }
