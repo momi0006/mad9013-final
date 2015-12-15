@@ -39,9 +39,11 @@ second color: #7F4546 */
 }
 body{
 	background: lightgrey;
+	font-family: 'Roboto', sans-serif;
 }
 nav{
 	background-color: firebrick;
+	font-size: 1.1rem;
 }
 button.navbar-toggler:focus{
 	outline: 0;
@@ -70,6 +72,10 @@ p a:hover{
 }
 i{
 	color: #CC2727;
+}
+
+.card-block .card-title, h1{
+	font-family: 'Bree Serif', serif;
 }
 .profilePicDiv{
 	text-align: center;
