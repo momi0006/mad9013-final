@@ -4,7 +4,8 @@
 body{
 	background: lightgrey;
 	color: black;
-	font-family: 'Roboto', 'Helvetica', sans-serif;
+	line-height: 1.8;
+	font-family: 'Roboto', Helvetica, Arial, sans-serif;
 }
 nav{
 	background-color: firebrick;
@@ -51,6 +52,7 @@ p a:hover{
 .centerAlign{
 	text-align: center;
 }
+
 i{
 	color: #CC2727;
 }
