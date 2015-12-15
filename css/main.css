@@ -39,6 +39,7 @@ second color: #7F4546 */
 }
 body{
 	background: lightgrey;
+	color: black;
 	font-family: 'Roboto', sans-serif;
 }
 nav{
@@ -54,6 +55,22 @@ span.mainHeader{
 	color: #ffffff;
 	vertical-align: middle;
 }
+
+.home{
+	background: url("../img/background1.png") no-repeat fixed;
+	background-size: cover;
+}
+
+.contact{
+	background: url("../img/bkg_05_may.jpg") no-repeat fixed;
+	background-size: cover;
+}
+
+.projects{
+	background: url("../img/background2.png") no-repeat fixed;
+	background-size: cover;
+}
+
 p a{
 	color: #7F0F0B;
 	text-decoration: underline;
@@ -77,6 +94,22 @@ i{
 .card-block .card-title, h1{
 	font-family: 'Bree Serif', serif;
 }
+
+.card-block{
+	background: #ffffff;
+	background: rgba(255,255,255,0.6);
+}
+
+.card-deck .card{
+	background: #ffffff;
+	background: rgba(255,255,255,0.6);
+}
+
+.card-deck .card .card-block{
+	background: #ffffff;
+	background: transparent;
+}
+
 .profilePicDiv{
 	text-align: center;
 	z-index: 1;
