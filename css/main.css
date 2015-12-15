@@ -1,39 +1,3 @@
-/*
-primary color: #cf4449
-second color: #7F4546 */
-/*// Extra small devices (portrait phones, less than 34em)
-// No media query since this is the default in Bootstrap
-
-// Small devices (landscape phones, 34em and up)
-@media (min-width: 34em) { ... }
-
-// Medium devices (tablets, 48em and up)
-@media (min-width: 48em) { ... }
-
-// Large devices (desktops, 62em and up)
-@media (min-width: 62em) { ... }
-
-// Extra large devices (large desktops, 75em and up)
-@media (min-width: 75em) { ... }*/
-
-/*-----------------------------------------------------------------------------------------------------------*/
-
-/*// Extra small devices (portrait phones, less than 34em)
-@media (max-width: 33.9em) { ... }
-
-// Small devices (landscape phones, less than 48em)
-@media (max-width: 47.9em) { ... }
-
-// Medium devices (tablets, less than 62em)
-@media (max-width: 61.9em) { ... }
-
-// Large devices (desktops, less than 75em)
-@media (max-width: 74.9em) { ... }
-
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width*/
-
-
 *{
 	-webkit-tap-highlight-color: transparent;
 }
@@ -57,17 +21,17 @@ span.mainHeader{
 }
 
 .home{
-	background: url("../img/background1.png") no-repeat fixed;
+	background: url("../img/background1.png") no-repeat center center fixed;
 	background-size: cover;
 }
 
 .contact{
-	background: url("../img/bkg_05_may.jpg") no-repeat fixed;
+	background: url("../img/bkg_05_may.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
 
 .projects{
-	background: url("../img/background2.png") no-repeat fixed;
+	background: url("../img/background2.png") no-repeat center center fixed;
 	background-size: cover;
 }
 
@@ -102,7 +66,7 @@ i{
 
 .card-deck .card{
 	background: #ffffff;
-	background: rgba(255,255,255,0.6);
+	background: rgba(255,255,255,0.75);
 }
 
 .card-deck .card .card-block{
@@ -142,7 +106,4 @@ i{
 	border-color: #7F0F0B; 
 	color: #ffffff;
 	outline:0;
-}
-input[type="submit"]{
-	outline: 0;
 }
